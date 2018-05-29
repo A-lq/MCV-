@@ -1,0 +1,21 @@
+{
+    "name": "administrator/frame",
+    "authors": [
+        {
+            "name": "zhangsan",
+            "email": "1234567@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "app\\":"app",
+            "system\\":"system"
+        },
+        "files":[
+            "system/functions.php",
+            "core/config/databases.php"
+        ]
+    }
+}
